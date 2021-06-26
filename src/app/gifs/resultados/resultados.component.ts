@@ -8,6 +8,8 @@ import { GifsService } from '../services/gifs.service';
 })
 export class ResultadosComponent implements OnInit {
 
+  
+
   constructor(
     private _gifService:GifsService
   ) { }
@@ -19,5 +21,8 @@ export class ResultadosComponent implements OnInit {
   get resultados(){
     return this._gifService.resultados;
   }
+
+
+
 
 }
